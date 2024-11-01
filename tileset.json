@@ -22,7 +22,7 @@
                 },
                 "geometricError": 5.196152422706632,
                 "content": {
-                    "uri": "tileset1.json"
+                    "uri": "tiles/tileOne/tileset.json"
                 },
                 "extras": {
                     "tilesetName": "TileSet_1"
@@ -36,10 +36,10 @@
                 },
                 "geometricError": 5.196152422706632,
                 "content": {
-                    "uri": "tileset2.json"
+                    "uri": "tiles/tileThree/tileset.json"
                 },
                 "extras": {
-                    "tilesetName": "TileSet_2"
+                    "tilesetName": "TileSet_3"
                 }
             }
         ]
