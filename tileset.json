@@ -34,7 +34,7 @@
                             "box": [2, 0, 1.5, 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5]
                         },
                         "content": {
-                            "uri": "./tiles/tileOne/0composite0.b3dm"
+                            "uri": "tiles/tileOne/0composite0.b3dm"
                         },
                         "geometricError": 0
                     }]
@@ -57,7 +57,7 @@
                             "box": [-2, 0, 1.5, 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5]
                         },
                         "content": {
-                            "uri": "./tiles/tileThree/0composite0.b3dm"
+                            "uri": "tiles/tileThree/0composite0.b3dm"
                         },
                         "geometricError": 0
                     }]
