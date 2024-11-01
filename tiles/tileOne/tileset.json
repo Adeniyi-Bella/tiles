@@ -7,7 +7,7 @@
                 "movable": true,
                 "terrainId": 1
             },
-            "name": "TileThree"
+            "name": "TileOne"
         }
     },
     "geometricError": 5.196152422706632,
