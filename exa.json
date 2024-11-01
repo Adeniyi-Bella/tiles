@@ -1,0 +1,23 @@
+{
+    "asset": {
+        "version": "1.0"
+    },
+    "geometricError": 500,
+    "root": {
+        "boundingVolume": {
+            "region": [
+                -1.3197,  
+                0.6989,    
+                -1.3195,   
+                0.6991,     
+                0,          
+                20         
+            ]
+        },
+        "geometricError": 0,
+        "refine": "ADD",
+        "content": {
+            "uri": "exa_with_batch_table.b3dm"
+        }
+    }
+}
