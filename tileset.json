@@ -1,36 +1,47 @@
 {
     "asset": {
-        "version": "1.0",
-        "extras": {
-            "ion": {
-                "georeferenced": true,
-                "movable": true,
-                "terrainId": 1
-            }
-        }
+        "version": "1.0"
     },
-    "geometricError": 5.196152422706632,
+    "geometricError": 10.392304845413264,
     "root": {
+        "boundingVolume": {
+            "region": [
+                0.139592, 0.088072, 
+                0.139600, 0.088080, 
+                0, 30
+            ]
+        },
         "geometricError": 5.196152422706632,
         "refine": "ADD",
-        "boundingVolume": {
-            "box": [0, 0, 1.5, 3.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5]
-        },
-        "children": [{
-            "boundingVolume": {
-                "box": [0, 0, 1.5, 3.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5]
-            },
-            "geometricError": 5.196152422706632,
-            "children": [{
+        "children": [
+            {
                 "boundingVolume": {
-                    "box": [0, 0, 1.5, 3.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5]
+                    "box": [
+                        -2, 0, 1.5, 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5
+                    ]
                 },
+                "geometricError": 5.196152422706632,
                 "content": {
-                    "uri": "0composite0.b3dm"
+                    "uri": "tileset1.json"
                 },
-                "geometricError": 0
-            }]
-        }],
-        "transform": [-0.13959730113909738, 0.9902083586370498, -1.1102230246251559e-16, 0, -0.7682447050424865, -0.10830537482631197, 0.6309279031378426, 0, 0.624750083384439, 0.08807583249139278, 0.7758414664363362, 0, 3992984.386338497, 562921.7719295395, 4925464.2308610715, 1]
+                "extras": {
+                    "tilesetName": "TileSet_1"
+                }
+            },
+            {
+                "boundingVolume": {
+                    "box": [
+                        2, 0, 1.5, 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5
+                    ]
+                },
+                "geometricError": 5.196152422706632,
+                "content": {
+                    "uri": "tileset2.json"
+                },
+                "extras": {
+                    "tilesetName": "TileSet_2"
+                }
+            }
+        ]
     }
 }
