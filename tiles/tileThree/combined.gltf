@@ -36,7 +36,7 @@
                     "featureIds": [
                         {
                             "featureTable": 0,
-                            "attribute": "featureId_0"
+                            "attribute": "mesh_1"
                         }
                     ]
                 }
@@ -44,13 +44,13 @@
         },
         {
             "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 1.5, 0, 1],
-            "mesh": 0,
+            "mesh": 1,
             "extensions": {
                 "EXT_mesh_features": {
                     "featureIds": [
                         {
                             "featureTable": 0,
-                            "attribute": "featureId_1"
+                            "attribute": "mesh_2"
                         }
                     ]
                 }
