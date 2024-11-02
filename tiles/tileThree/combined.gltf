@@ -28,35 +28,35 @@
     ],
     "scene": 0,
     "nodes": [
-        {
-            "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2, 1.5, 0, 1],
-            "mesh": 0,
-            "extensions": {
-                "EXT_mesh_features": {
-                    "featureIds": [
-                        {
-                            "featureTable": 0,
-                            "attribute": "featureId_0"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 1.5, 0, 1],
-            "mesh": 0,
-            "extensions": {
-                "EXT_mesh_features": {
-                    "featureIds": [
-                        {
-                            "featureTable": 0,
-                            "attribute": "featureId_1"
-                        }
-                    ]
-                }
+    {
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2, 1.5, 0, 1],
+        "mesh": 0,
+        "extensions": {
+            "EXT_mesh_features": {
+                "featureIds": [
+                    {
+                        "featureTable": 0,
+                        "attribute": "featureId_0"
+                    }
+                ]
             }
         }
-    ],
+    },
+    {
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 1.5, 0, 1],
+        "mesh": 1,
+        "extensions": {
+            "EXT_mesh_features": {
+                "featureIds": [
+                    {
+                        "featureTable": 0,
+                        "attribute": "featureId_1"
+                    }
+                ]
+            }
+        }
+    }
+],
     "bufferViews": [
         {
             "buffer": 0,
@@ -136,19 +136,33 @@
         }
     ],
     "meshes": [
-        {
-            "primitives": [
-                {
-                    "mode": 4,
-                    "attributes": {
-                        "POSITION": 0,
-                        "NORMAL": 1,
-                        "TEXCOORD_0": 2
-                    },
-                    "indices": 3,
-                    "material": 0
-                }
-            ]
-        }
-    ]
+    {
+        "primitives": [
+            {
+                "mode": 4,
+                "attributes": {
+                    "POSITION": 0,
+                    "NORMAL": 1,
+                    "TEXCOORD_0": 2
+                },
+                "indices": 3,
+                "material": 0
+            }
+        ]
+    },
+    {
+        "primitives": [
+            {
+                "mode": 4,
+                "attributes": {
+                    "POSITION": 0,
+                    "NORMAL": 1,
+                    "TEXCOORD_0": 2
+                },
+                "indices": 3,
+                "material": 0
+            }
+        ]
+    }
+]
 }
