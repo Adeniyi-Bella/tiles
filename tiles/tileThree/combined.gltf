@@ -36,7 +36,7 @@
                     "featureIds": [
                         {
                             "featureTable": 0,
-                            "attribute": "mesh_1"
+                            "attribute": "featureId_0"
                         }
                     ]
                 }
@@ -50,7 +50,7 @@
                     "featureIds": [
                         {
                             "featureTable": 0,
-                            "attribute": "mesh_2"
+                            "attribute": "featureId_1"
                         }
                     ]
                 }
